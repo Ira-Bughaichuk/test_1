@@ -1,0 +1,18 @@
+.container {
+	padding:  var(--container-padding);
+	max-width: var(--container-width);
+	margin: 0 auto;
+
+
+	@media screen and (min-width: var(--mobile-size)){
+		width: var(--mobile-size)
+	 }
+	 @media screen and (min-width: var(--tablet-size)) {
+		width: var(--tablet-size);
+	 }
+	 @media screen and (min-width:var(--laptop-size)) {
+		width: var(--laptop-size);
+	 }
+}
+
+
